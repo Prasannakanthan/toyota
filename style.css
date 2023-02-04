@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'MaheswariFont';
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+.girlImg{
+    border: 1px solid;
+    width: 100%;
+    height: 500px;
+    background: url(pexels-photo-3769021.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -253px;
+    display: flex;
+    align-items: center;
+}
+
+.girlImg h1{
+    font-family: 'MaheswariFont';
+}
+
+.features, .featuresBottom{
+    border: 1px solid;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.bottomSection{
+    background-color: aliceblue;
+    position: absolute;
+    top: 344px;
+    left: 342px;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
